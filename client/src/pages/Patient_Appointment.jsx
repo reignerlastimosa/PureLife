@@ -118,7 +118,7 @@ const Patient_Appointment = () =>{
                 appointment.map(app=>(
                     
                             <tr key={app.schedule_id}>
-                                <td>{app.fullname}</td>
+                                <td>Dr. {app.fullname}</td>
                                 <td>{app.education}</td>
                                 <td>{app.specialty}</td>
                                 <td>{Moment(app.schedule_date).format('YYYY-MM-DD')}</td>

@@ -21,9 +21,9 @@ const Admin_Doctor = () =>{
         fullname:"",
         contact:"",
         email:"",
-        password:"",
-        specialty:"",
         education:"",
+        specialty:"",
+        password:"",
     });
 
     const [searchQuery, setSearchQuery] = useState("");
@@ -87,6 +87,7 @@ const Admin_Doctor = () =>{
 
  const handleFormChange = (e) =>{
     setAddDoctor(prev=>({...prev,[e.target.name]: e.target.value}));
+   
     }
 
 
@@ -118,7 +119,7 @@ const Admin_Doctor = () =>{
             <div className="addAppointmentForm">
                 <div className="form_heading"> 
                     <h1>ADD DOCTOR</h1>
-                    <button onClick={showAddForm}>Close</button>
+                    <button onClick={showAddForm}>X</button>
                 </div>
 
                 <div className="form_add">

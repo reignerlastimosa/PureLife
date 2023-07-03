@@ -42,7 +42,7 @@ const Admin_Dashboard = () =>{
             <Link to="/appointment">   <div><h1>{dashboard.num_appointments_accepted} </h1> <h3>Accepted Appointments</h3> </div> </Link>
                 
             <Link to="/appointment">  <div> <h1>{dashboard.num_appointments_cancelled} </h1> <h3>Cancelled Appointments</h3></div>  </Link>
-            <Link to="/appointment">   <div> <h1>{dashboard.num_schedules} </h1> <h3>Doctor Schedules</h3> </div> </Link>
+            <Link to="/schedule">   <div> <h1>{dashboard.num_schedules} </h1> <h3>Doctor Schedules</h3> </div> </Link>
                
 
             </div>

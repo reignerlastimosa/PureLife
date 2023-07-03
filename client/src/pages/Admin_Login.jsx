@@ -72,7 +72,7 @@ console.log(user);
             <label>Username</label>
             <input type="text" placeholder="input username" name="username" onChange={handleFormChange}/>
             <label>Password</label>
-            <input type="text" placeholder="input password" name="password" onChange={handleFormChange}/>  
+            <input type="password" placeholder="input password" name="password" onChange={handleFormChange}/>  
             <br/>
             <button onClick={handleFormClick}>Login</button>  
             

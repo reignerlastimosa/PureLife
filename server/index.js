@@ -430,8 +430,8 @@ app.post("/doctor",(req,res)=>{
     const contact=req.body.contact;
     const email=req.body.email;
     const specialty=req.body.specialty;
-    const password=req.body.password;
-    const education=req.body.education;
+    const password=req.body.education;
+    const education=req.body.password;
     const values = [fullname,contact,email,specialty,password,education];
     
     database.query(q,[values],(err,result)=>{

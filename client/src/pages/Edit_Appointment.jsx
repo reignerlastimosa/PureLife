@@ -64,10 +64,10 @@ const Edit_Appointment = () =>{
 
            
                 <h4>Appointment No. {status.appointment_id}</h4>
-                <h4>Patient Name {status.patient_id}</h4>
+                <h4>Patient ID: {status.patient_id}</h4>
                 <h4>Appointment Date {status.appointment_date}</h4>
                 <h4>Appointment Time {status.appointment_time}</h4>
-                <h4>Doctor {status.doctor_id}</h4>
+                <h4>Doctor ID: {status.doctor_id}</h4>
                 <h4>Reason for Appointment {status.reason}</h4>
                 
                 <label>Accept</label>

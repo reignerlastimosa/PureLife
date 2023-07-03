@@ -73,7 +73,7 @@ const Doctor_Login = () =>{
             <label>Email</label>
             <input type="text" placeholder="input username" name="email" onChange={handleFormChange}/>
             <label>Password</label>
-            <input type="text" placeholder="input password" name="password" onChange={handleFormChange}/>  
+            <input type="password" placeholder="input password" name="password" onChange={handleFormChange}/>  
             <br/>
             <button onClick={handleFormClick}>Login</button>  
             <p>Are you an admin? <a> <Link to="/admin">   Log In here </Link></a></p>

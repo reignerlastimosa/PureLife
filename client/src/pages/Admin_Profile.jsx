@@ -36,7 +36,7 @@ const Profile = () =>{
             e.preventDefault();
            
                  axios.post("http://localhost:8800/edit/admin", patientInfo).then(res=> console.log(res.data)).catch(err=> console.log(err));
-                alert("edited patient...")
+                alert("edited account information...")
                 setEdit(!edit);
                 navigate("/dashboard");  
         }
